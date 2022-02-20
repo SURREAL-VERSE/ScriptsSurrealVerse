@@ -29,6 +29,9 @@ html, body{margin:0; padding:0;  line-height:1.6em;;font-family: 'Anton', sans-s
 .overlay{position:relative; z-index:1;}
 .overlay::after{display:block; position:absolute; top:0; left:0; width:100%; height:100%; content:""; z-index:-1;}
 .bgded{background-position:top center; background-repeat:no-repeat; background-size:cover;}
+
+#myVideo{width: 100%;position: absolute;top: 0;z-index: -100;}
+
 .circle{border-radius:50%; background-clip:padding-box;}
 
 .btn, button.btn{display:inline-block; padding:8px 25px 10px; text-transform:uppercase; font-size:1rem; font-weight:400; border:1px solid;}
@@ -59,7 +62,8 @@ img{width: 300px;; height:300px; margin:0; padding:0; border:none; line-height:n
 --------------------------------------------------------------------------------------------------------------- */
 body, input, textarea, select{font-family: 'Montserrat', sans-serif;}
 h1, h2, h3, h4, h5, h6, .heading{font-family: 'Bebas Neue', cursive;}
-#headSur{font-size: 6.9rem;letter-spacing: 4.5px;}
+#headSur{font-size: 5.4rem;letter-spacing: 4.5px;}
+#article{font-weight: bold;font-size: 1.2rem;padding: 3%;}
 
 /* Forms
 --------------------------------------------------------------------------------------------------------------- */
