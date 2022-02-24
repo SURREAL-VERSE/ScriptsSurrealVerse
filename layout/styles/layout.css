@@ -13,12 +13,27 @@
 #header{padding:0 30px;}
 #header #logo{margin:22px 0 0 0;}
 #header #logo h1{margin:0; padding:0; font-size:3rem; font-variant:small-caps;}
-#subForm{width: 248px;height: 200px;background-size: cover;float: right;position: absolute;left: 1120px;bottom: 256px;}
-.subformEnd{width: 248px;height: 201px;background-size: cover;position: absolute;top: 200px;left: 1090px;bottom: 50px;}
+
+#myVideo{width: 100%;height: 162%;position: absolute;top: 0;z-index: -100;object-fit: cover;}
+#headSur{font-size: 5.6rem;letter-spacing: 4.5px; }
+#mainHead1{position: absolute;
+    top: 270px;
+    font-size: 20px;
+    color: rgb(139, 134, 134);
+    font-weight: bolder;}
+#mainHead2{line-height: 25px;
+    font-size: 20px;
+    word-spacing: 9px;
+    color: #F7F7F7;
+    letter-spacing: 1px;
+	height: 50px;
+	width: 100%;
+	font-family:Montserrat ;
+}
 /* Page Intro
 --------------------------------------------------------------------------------------------------------------- */
 #pageintro{padding:100px 0;}
-#pageintro article{display:block; max-width:60%; text-transform:capitalize;font-family: sans-serif;}
+#pageintro article{display:block; max-width:60%;font-family: sans-serif;}
 #pageintro .heading{font-size:7.9rem; letter-spacing: 4.5px;}
 #pageintro footer{margin-top:50px;}
 
@@ -31,6 +46,7 @@
 #ctdetails ul li div span{display:block; padding:4px 0 0 0;}
 #ctdetails ul li div strong{display:block; margin:0 0 8px 0;}
 #ctdetails div:last-child{margin-bottom:0;}/* Used when elements stack in small viewports */
+.ctdetails_class{background-color: #00ACEE;float: left;}
 
 
 /* Content Area
@@ -240,7 +256,7 @@ hr, .borderedbox{border-color:#D7D7D7;}
 label span{color:#FF0000; background-color:inherit;}
 input:focus, textarea:focus, *:required:focus{border-color:#0AC6FC !important;}
 
-.overlay{color:#FFFFFF; background-color:inherit;}
+.overlay{color:#FFFFFF; background-color:inherit;height: 615px;}
 .overlay::after{color:inherit; background-color:rgba(0,0,0,.55);}
 .overlay.light{color:#474747;}
 .overlay.light::after{background-color:rgba(255,255,255,.7);}
